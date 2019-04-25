@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>psr</string>
+	<string>cinit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#comment#&gt;
-@property (nonatomic, readonly, strong) &lt;#type#&gt; *&lt;#name#&gt;</string>
+	<string> &lt;#name#&gt; = ({
+        &lt;#statement#&gt;
+        &lt;#return#&gt;;
+    });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3CA02092-67A7-4ED2-885E-FAFDD6830863</string>
+	<string>D486AA76-34B4-4380-B694-0BB20F83133E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>strong readonly property</string>
+	<string>customstyle init</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,22 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>psr</string>
+	<string>paw</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/// &lt;#comment#&gt;
-@property (nonatomic, readonly, strong) &lt;#type#&gt; *&lt;#name#&gt;</string>
+@property (nonatomic, readwrite, assign) &lt;#type#&gt; &lt;#name#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3CA02092-67A7-4ED2-885E-FAFDD6830863</string>
+	<string>DA3EF41B-78E8-4B7A-8E8A-10D4E507F8EE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>strong readonly property</string>
+	<string>assign readwrite property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
