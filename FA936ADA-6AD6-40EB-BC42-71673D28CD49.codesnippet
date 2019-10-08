@@ -9,18 +9,17 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>
-&lt;#property#&gt; = ({
+	<string>&lt;#object#&gt; = ({
         UILabel *label = [[UILabel alloc] init];
-        label.font = [UIFont systemFontOfSize:&lt;#size#&gt;];
-        label.textColor = &lt;#color#&gt;;
-        label.numberOfLines = &lt;#number#&gt;;
-        label.textAlignment = &lt;#alignment#&gt;;
         [&lt;#superView#&gt; addSubview:label];
+        label.font = &lt;#font#&gt;;
+        label.textColor = &lt;#color#&gt;;
+        label.numberOfLines = &lt;#1#&gt;;
+        label.textAlignment = &lt;#NSTextAlignmentLeft#&gt;;
         label;
     });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EB856635-EFFC-4211-B3B0-23C441F1AC93</string>
+	<string>FA936ADA-6AD6-40EB-BC42-71673D28CD49</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
