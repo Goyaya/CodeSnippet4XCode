@@ -3,28 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>initobject</string>
+	<string>mas_remake</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>All</string>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    self = [super init];
-    if (self) {
+	<string>[&lt;#view#&gt; mas_remakeConstraints:^(MASConstraintMaker *make) {
         &lt;#code#&gt;
-    }
-    return self;</string>
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>84E4972C-0F69-48F0-9D76-2B360EFFEE58</string>
+	<string>550358BF-D04B-4DF4-921B-1ADB90474460</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>object initialization</string>
+	<string>remake constraint with masonry</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
